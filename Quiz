@@ -1,0 +1,28 @@
+Print("welcome to my game")
+Playing=input ("do you want to play the game")
+If playing=="yes":
+    Print("let's play")
+    Score =0
+Else:
+    Quit()
+answer=input("what does cpu stand for? ")
+If answer=="central processing unit':
+    Print("correct")
+    Score+=1
+Else:
+    Print("incorrect")
+answer=input("what does gpu stand for? ")
+If answer=="graphics processing unit':
+    Print("correct")
+    Score+=1
+Else:
+    Print("incorrect")
+answer=input("what does pcu stand for? ")
+If answer=="packet controlling unit":
+    Print("correct")
+    Score+=1
+Else:
+    Print("incorrect")
+Print("you got"+str(score)+"answers correct")
+
+
